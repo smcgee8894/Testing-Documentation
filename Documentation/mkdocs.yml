@@ -1,8 +1,7 @@
 site_name: My Docs
 site_url: https://smcgee8894.github.io/Testing-Documentation
-site_dir: !ENV [SITEDIR, 'site']
+site_dir: site
 theme:
   name: material
 plugins:
-  - offline:
-      enabled: !ENV [OFFLINE, true]
+  - offline
